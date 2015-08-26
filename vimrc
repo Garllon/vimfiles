@@ -63,8 +63,8 @@ map   <silent> <F6> mmgg=G`m^zz
 imap  <silent> <F6> <Esc> mmgg=G`m^zz
 
 " binding.pry mappings
-noremap <leader>d orequire 'pry'; binding.pry<ESC>
-noremap <leader>D Orequire 'pry'; binding.pry<ESC>
+noremap <leader>p orequire 'pry'; binding.pry<ESC>
+noremap <leader>P Orequire 'pry'; binding.pry<ESC>
 
 " Source the vimrc file after saving it
 if has("autocmd")
