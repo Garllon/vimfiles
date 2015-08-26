@@ -1,3 +1,11 @@
+vim Installation
+==
+Prerequisites 
+---
+
+Configure your Git
+https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration
+
 Install vim
 ---
 ... as we need it.
