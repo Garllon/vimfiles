@@ -1,24 +1,3 @@
-vim Installation
-==
-Prerequisites 
----
-
-on Ubuntu & Linux Mint ...
-
-```
-sudo apt-get install libpython3-dev libpython-dev libperl-dev libruby2.0 curl libx11-dev libxtst-dev libx11-dev libxt-dev libsm-dev libxpm-dev ruby-dev libncurses5-dev git mercurial terminator
-```
-
-on Arch Linux ...
-
-```
-sudo pacman -S git mercurial terminator ruby
-```
-All other given dependencies seem to be satisfied by a clean default install of Arch Linux (only tried it once). Please be aware, that installing ruby via pacman can interfere with ruby environment changers like http://rvm.io
-
-
-You will need to use a good terminal emulator, such as terminator - we basically installed that for you.
-
 Install vim
 ---
 ... as we need it.
@@ -50,38 +29,9 @@ Install vim configuration
 ---
 
 ```
-git clone --branch=master https://github.com/hendrikb/vimfiles.git ~/.vim
+git clone --branch=master https://github.com/garllon/vimfiles.git ~/.vim
 cp ~/.vimrc ~/.vimrc.old ; ln -sf ~/.vim/vimrc ~/.vimrc
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cd ~/.vim
 ./update_bundles.sh
 ```
-
-Install most awesome  "Source Code Pro for Powerline" fonts on Ubuntu/Linux Mint
----
-For Details on those fonts, that will make your vim will look pretty cool, check out the projects website:
-https://github.com/Lokaltog/powerline-fonts
-
-```
-cd ~/code
-git clone https://github.com/Lokaltog/powerline-fonts.git
-cd powerline-fonts
-./install.sh
-```
-
-After you installed your fonts to ```~/.fonts``` you should now switch to these
-fonts in your terminal emulator application. Therefor, in Terminator for
-example, go to the *Preferences* and disable system fonts, select "Source Code
-Pro for Powerline" (or anything similar).
-
-If colors don't seem to work (you should see a lot of yellow/green and syntax
-highlighting), make sure your environment variable ```TERM``` is set to
-something ```xterm-256color```. You can add something like...
-
-```
-export TERM=xterm-256color
-```
-
-... to your ```~/.bashrc```.
-
-**You should now be able to able to use Vim from your command line.** :)
