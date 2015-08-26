@@ -33,6 +33,7 @@ Bundle 'vim-ruby/vim-ruby'
 Plugin 'fatih/vim-go'
 Bundle 'kchmck/vim-coffee-script'
 Plugin 'lervag/vim-latex'
+Plugin 'kballard/vim-swift'
 
 " Colors
 Bundle 'altercation/vim-colors-solarized'
