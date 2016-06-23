@@ -13,6 +13,7 @@ set title
 set encoding=utf-8
 set number
 set splitbelow splitright
+set t_Co=256
 
 "  ---------------------------------------------------------------------------
 "  Text Formatting
