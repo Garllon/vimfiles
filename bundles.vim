@@ -16,7 +16,8 @@ Bundle 'rking/ag.vim.git'
 
 " Tools
 
-Bundle 'bling/vim-airline.git'
+Bundle 'vim-airline/vim-airline.git'
+Bundle 'vim-airline/vim-airline-themes.git'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tomtom/tcomment_vim.git'
 Bundle 'Townk/vim-autoclose.git'
