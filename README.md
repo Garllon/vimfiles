@@ -33,3 +33,13 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cd ~/.vim
 ./update_bundles.sh
 ```
+
+Extra Tools
+---
+
+For the AG Plugin you need the [Silver Searcher](https://github.com/ggreer/the_silver_searcher).
+
+Installing for Ubuntu
+```
+sudo apt-get install silversearcher-ag
+```
