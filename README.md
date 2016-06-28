@@ -1,14 +1,5 @@
 vim Installation
 ==
-Prerequisites 
----
-
-Configure your Git
-[Config Git](https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration)
-
-Install brew
-[brew](http://brew.sh/)
-
 Install vim
 ---
 ... as we need it.
