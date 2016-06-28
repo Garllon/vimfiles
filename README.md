@@ -28,6 +28,9 @@ Install vim configuration
 
 ```
 git clone --branch=master https://github.com/garllon/vimfiles.git ~/.vim
+```
+# if you want hold your old vimrc
+```
 cp ~/.vimrc ~/.vimrc.old; ln -sf ~/.vim/vimrc ~/.vimrc
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cd ~/.vim
