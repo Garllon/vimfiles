@@ -72,11 +72,10 @@ if has("autocmd")
 endif
 
 " Ignore some binary, versioning and backup files when auto-completing
-set wildignore=.svn,CVS,.git,*.swp,*.jpg,*.png,*.gif,*.pdf,*.bak
+set wildignore=.svn,CVS,.git,*.swp,*.jpg,*.png,*.gif,*.pdf,*.bak,**/docker_app/**
 set backupdir=~/tmp,/tmp
 set undodir=~/.vim/.tmp,~/tmp,~/.tmp,/tmp
 set dir=/tmp
-
 
 "  ---------------------------------------------------------------------------
 "  Write to write-only files with :sudow
