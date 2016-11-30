@@ -18,6 +18,7 @@ Bundle 'rking/ag.vim.git'
 
 Bundle 'vim-airline/vim-airline.git'
 Bundle 'vim-airline/vim-airline-themes.git'
+Bundle 'ngmy/vim-rubocop'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tomtom/tcomment_vim.git'
 Bundle 'Townk/vim-autoclose.git'
@@ -35,6 +36,7 @@ Plugin 'fatih/vim-go'
 Bundle 'kchmck/vim-coffee-script'
 Plugin 'lervag/vim-latex'
 Plugin 'kballard/vim-swift'
+Plugin 'ejholmes/vim-forcedotcom.git'
 
 " Colors
 Bundle 'altercation/vim-colors-solarized'
