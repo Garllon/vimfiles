@@ -18,6 +18,7 @@ Bundle 'rking/ag.vim.git'
 
 Bundle 'vim-airline/vim-airline.git'
 Bundle 'vim-airline/vim-airline-themes.git'
+Bundle 'posva/vim-vue'
 Bundle 'ngmy/vim-rubocop'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tomtom/tcomment_vim.git'
