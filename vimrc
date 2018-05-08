@@ -29,7 +29,6 @@ set textwidth=79
 set formatoptions=n
 set colorcolumn=80
 
-set listchars=tab:>-,trail:·,extends:>,precedes:<,nbsp:❌
 set list
 
 set backspace=indent,eol,start
