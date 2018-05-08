@@ -29,7 +29,7 @@ set textwidth=79
 set formatoptions=n
 set colorcolumn=80
 
-set list
+set nolist
 
 set backspace=indent,eol,start
 
