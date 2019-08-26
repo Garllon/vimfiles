@@ -4,9 +4,25 @@ Install vim
 ---
 ... as we need it.
 
+For Linux
+-----
+
 ```
 # do once:
 sudo apt-get install vim-gtk
+
+# make sure everythin worked well:
+# does the following command show a very recent version of vim?
+# (i.e. not your distro's package version)
+vim --version
+```
+
+For Mac
+-----
+
+```
+# do once:
+brew install vim
 
 # make sure everythin worked well:
 # does the following command show a very recent version of vim?
@@ -19,6 +35,7 @@ Install vim configuration
 
 ```
 git clone --branch=master https://github.com/garllon/vimfiles.git ~/.vim
+
 # if you want hold your old vimrc
 cp ~/.vimrc ~/.vimrc.old; ln -sf ~/.vim/vimrc ~/.vimrc
 # or jump to this part
@@ -35,4 +52,9 @@ For the AG Plugin you need the [Silver Searcher](https://github.com/ggreer/the_s
 Installing for Ubuntu
 ```
 sudo apt-get install silversearcher-ag
+```
+
+Installing for Mac
+```
+brew install the_silver_searcher
 ```
