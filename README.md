@@ -5,8 +5,6 @@ Install vim
 ... as we need it.
 
 For Linux
------
-
 ```
 # do once:
 sudo apt-get install vim-gtk
@@ -18,8 +16,6 @@ vim --version
 ```
 
 For Mac
------
-
 ```
 # do once:
 brew install vim
