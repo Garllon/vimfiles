@@ -76,6 +76,8 @@ set backupdir=~/tmp,/tmp
 set undodir=~/.vim/.tmp,~/tmp,~/.tmp,/tmp
 set dir=/tmp
 
+let g:tex_flavor = 'latex'
+
 "  ---------------------------------------------------------------------------
 "  Write to write-only files with :sudow
 "  ---------------------------------------------------------------------------

@@ -11,7 +11,6 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Bundle 'rking/ag.vim.git'
 
-
 " VIM PLUGINS HERE
 
 " Tools
@@ -64,4 +63,4 @@ filetype plugin on    " Enable filetype-specific plugins
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 "
 " see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
+ Put your non-Plugin stuff after this line
